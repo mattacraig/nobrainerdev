@@ -1,0 +1,81 @@
+header {
+	background: url('../../img/nobrainerimg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav,
+.main-nav {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+nav {
+	justify-content: center;
+	height: 5.625rem;
+}
+
+.main-nav {
+	width: 85%;
+}
+
+.main-nav li a,
+.fa-navicon {
+	color: $white;
+}
+
+.main-nav li:first-child {
+	margin-right: auto;
+}
+
+.brand {
+	font-size: 2.25rem;
+	position: relative;
+}
+
+.brand:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: .1875rem;
+	width: 40%;
+	background: $tomato;
+	margin-top: 30px;
+}
+
+a.fa-navicon {
+	font-size: 1.5rem;
+}
+
+.form-group {
+	margin-top: 20vh;
+	display: flex;
+}
+
+.search,
+button {
+	border: none;
+	outline: none;
+}
+
+.search {
+	height: 3.75rem;
+	width: 26.25rem;
+	padding-left: 1.25rem;
+}
+
+button.fa-search {
+	height: 3.75rem;
+	background: $tomato;
+	width: 5rem;
+	color: $white;
+	font-size: 1.3rem;
+}
+

@@ -1,0 +1,48 @@
+h1,
+h2,
+h3 {
+	font-family: $heading-font;
+	font-weight: 700;
+}
+
+p,
+.brand {
+	font-family: $primary-font;
+}
+
+aside {
+	font-family: $secondary-font;
+}
+
+input::-webkit-input-placeholder {
+	font-size: .875rem;
+	color: $tomato;
+	font-family: $primary-font;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+input:-moz-input-placeholder {
+	font-size: .875rem;
+	color: $tomato;
+	font-family: $primary-font;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+input::-moz-input-placeholder {
+	font-size: .875rem;
+	color: $tomato;
+	font-family: $primary-font;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+input:-ms-input-placeholder {
+	font-size: .875rem;
+	color: $tomato;
+	font-family: $primary-font;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
